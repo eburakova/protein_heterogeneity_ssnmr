@@ -34,14 +34,13 @@ pyenv local 3.11.3
 python -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
-pip install jupyterlab
+pip install -r requirements
 ```
 
 Download PACSY to the repo root directory and run the following commands:
 > if you use Windows, open a Bash terminal with `GitBash` or WSL.
 ```bash
 unzip pacsy_csv.zip
-mv zavot/data/whlee/pacsy/CSV_042822/*_DB2.txt ./data/pacsy/
-mv zavot/data/whlee/pacsy/CSV_042822/CS_STATS_DB.txt ./data/pacsy/
-rm -r zavot/
+cp zavot/data/whlee/pacsy/CSV_042822/*_DB2.txt ./data/pacsy/
+cp zavot/data/whlee/pacsy/CSV_042822/CS_STATS_DB.txt ./data/pacsy/
 ```
