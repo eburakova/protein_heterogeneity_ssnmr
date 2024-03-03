@@ -11,9 +11,9 @@
 
 ## Setup
 
-* Make sure that Python is installed and is in `$PATH`
-* Download PACSY database at http://pine.nmrfam.wisc.edu/download_packages.html. It is mostly required for plots and for the detailed analysis but is not strictly necessary for the "TALOS approach". 
-
+* Make sure that Python is installed and is in `$PATH`.
+* Download PACSY database at http://pine.nmrfam.wisc.edu/download_packages.html. It is mostly required for plots and for the detailed analysis but is not strictly necessary for the "TALOS approach".  
+* Have your processed 4D hCBCANH at hand.
 
 For `Windows`: 
 
